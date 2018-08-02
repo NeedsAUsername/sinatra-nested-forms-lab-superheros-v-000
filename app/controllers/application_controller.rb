@@ -6,6 +6,9 @@ class App < Sinatra::Base
 
 
     get '/' do
+    end
+
+    post '/teams' do
     end 
 
 end
