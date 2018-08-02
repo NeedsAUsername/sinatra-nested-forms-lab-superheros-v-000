@@ -1,4 +1,5 @@
 class Hero
+  
   attr_accessor :name, :power, :biography
 
   def initialize(params)
@@ -12,6 +13,6 @@ class Hero
 
   def self.all
     @@all
-  end 
+  end
 
 end
